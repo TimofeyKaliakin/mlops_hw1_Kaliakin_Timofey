@@ -5,7 +5,7 @@
 
 ## Как запустить (3–6 команд)
 1. `git clone https://github.com/TimofeyKaliakin/mlops_HW1_Kaliakin_Timofey.git && cd mlops_HW1_Kaliakin_Timofey`
-2. `python3 -m venv .venv && source .venv/bin/activate` <!-- Windows: `python -m venv .venv && .venv\\Scripts\\activate` -->
+2. `python3 -m venv .venv && source .venv/bin/activate` (Windows: `python -m venv .venv && .venv\\Scripts\\activate`)
 3. `pip install -r requirements.txt`
 4. `dvc pull`
 5. `dvc repro`
